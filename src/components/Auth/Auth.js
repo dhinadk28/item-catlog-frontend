@@ -75,9 +75,9 @@ const Auth = () => {
       </Tabs>
     </AppBar>
     {/* <SwipeableViews */}
-      axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-      index={value}
-      onChangeIndex={handleChangeIndex}
+      {/* {theme.direction === 'rtl' ? 'x-reverse' : 'x'} */}
+      {/* index={value}
+      onChangeIndex={handleChangeIndex} */}
     
       <TabPanel value={value} index={0} dir={theme.direction}>
         <Login/>
