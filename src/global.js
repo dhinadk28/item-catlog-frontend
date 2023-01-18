@@ -1,1 +1,1 @@
-export const API = ""
+export const DB_URI = "https://item-catlog-backend.onrender.com"
