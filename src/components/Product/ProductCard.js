@@ -82,6 +82,7 @@ const ProductCard = React.forwardRef(({product},ref) => {
             onClick={linkToDetails}
             sx={{position:'relative',overflow:'hidden', minHeight:'365px'}}>
         <CardMedia
+        className='card-img-top mx-auto'
           component="img"
           height="140"
           image={IMAGE_BASEURL+product.images[0].url}
