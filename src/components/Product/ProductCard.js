@@ -4,6 +4,7 @@ import {formatCurrency} from '../../utility/formatCurrency';
 import {useDispatch,useSelector} from 'react-redux';
 import {toast} from 'react-toastify';
 import {useNavigate} from 'react-router-dom';
+import './ProductCard.css'
 
 
 import Card from '@mui/material/Card';
