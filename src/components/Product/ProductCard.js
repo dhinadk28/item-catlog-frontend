@@ -86,7 +86,8 @@ const ProductCard = React.forwardRef(({product},ref) => {
         className='card-img-top-mx-auto'
           component="img"
           
-          object-fit='contain'
+          object-fit='cover'
+          height='140'
           
           image={IMAGE_BASEURL+product.images[0].url}
           alt={product.title}
