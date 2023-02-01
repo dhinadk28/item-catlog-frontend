@@ -76,7 +76,8 @@ const ProductCard = React.forwardRef(({product},ref) => {
   const linkToDetails=()=>{navigate(`/product/${product._id}`);}
   
   return (
-    <Box className='productCard'>
+    <Box className='productCard'
+    onject-fit='contain'>
     
       <CardActionArea>
       <Card className='box-shadow' 
@@ -86,7 +87,7 @@ const ProductCard = React.forwardRef(({product},ref) => {
         className='card-img-top-mx-auto'
           component="img"
           
-          object-fit='cover'
+          object-fit='fill'
           height='140'
           
           image={IMAGE_BASEURL+product.images[0].url}
